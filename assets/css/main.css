@@ -15,6 +15,7 @@ h1, h2, h3 {
 
 h2 {
     font-size: 45px;
+    font-weight: normal;
 }
 
 h3 {
@@ -23,9 +24,18 @@ h3 {
     text-transform: uppercase;
 }
 
+.clear {
+    clear: both;
+}
+
 header {
+    width: 100%;
     min-height: 80px;
-    background: #1E213D;
+    background: #0D5BD0;
+    box-shadow: 0 8px 6px -6px #333;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header ul {
@@ -43,15 +53,14 @@ header ul li {
     padding: 10px;
 }
 header ul li.tickets {
-    border-radius: 10px;
     background: white;
-    color: #0DE0CD;
+    color: #08B9A7;
 }
 header ul li.tickets a {
-    color: #1E213D;
+    color: #08B9A7;
 }
 header ul li.tickets a:hover{
-    color: #0DE0CD;
+    color: #333;
 }
 
 header a {
@@ -59,46 +68,67 @@ header a {
     text-decoration: none;
 }
 header a:hover {
-    color: #0DE0CD;
+    color: #08B9A7;
 }
 header a.current {
-    color: #0DE0CD;
+    color: #08B9A7;
 }
 
 
 main {
-    background: #1E213D;
-    height: 650px;
+    background: #0F47BF;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0 30px 0;
+    margin-top: 80px;
 }
-
-main .event {
-    max-width: 800px;
+main .logo {
+    max-width: 700px;
+    height: auto;
     margin: 0 auto;
 }
 
+main h2 {
+    margin-top: 50px;
+}
+
+main .event {
+    max-width: 1000px;
+    margin-top: 80px;
+}
+
 main .event-block {
-    border: 2px dashed white;
+    border: 2px dashed #08B9A7;
     padding: 10px;
     text-align: left;
     width: 33%;
+    font-weight: 900;
     float: left;
-    font-weight: 700;
-    font-size: 20px;
-    color: #0DE0CD;
-    margin-top: 50px;
+    font-size: 25px;
 }
 main .event-block:not(:last-child) {
     border-right: 0;
 }
 
 main .event-block-top {
-    font-size: 12px;
+    font-size: 14px;
     opacity: 1;
+    color: #08B9A7;
     font-weight: normal;
-    color: white;
+    font-style: italic;
 }
+
+main .one {
+    color: #08B9A7;
+    /* font-weight: 100; */
+    font-style: italic;
+}
+
+.mascot {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
 
 
 section {
@@ -107,8 +137,8 @@ section {
     line-height: 1.5;
 }
 
-section .content {
-    max-width: 1000px;
+.content {
+    max-width: 800px;
     margin: 0 auto;
 }
 
