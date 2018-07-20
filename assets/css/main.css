@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    color: #1E213D;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+header {
+    min-height: 80px;
+    background: #1E213D;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 15px;
+    text-align: center;
+}
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 17px;
+    padding: 10px;
+}
+header ul li.tickets {
+    border-radius: 10px;
+    background: white;
+    color: #0DE0CD;
+}
+header ul li.tickets a {
+    color: #1E213D;
+}
+header ul li.tickets a:hover{
+    color: #0DE0CD;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    color: #0DE0CD;
+}
+header a.current {
+    color: #0DE0CD;
+}
+
+
+main {
+    background: #1E213D;
+    height: 650px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+main .event {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main .event-block {
+    border: 2px dashed white;
+    padding: 10px;
+    text-align: left;
+    width: 33%;
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0DE0CD;
+    margin-top: 50px;
+}
+main .event-block:not(:last-child) {
+    border-right: 0;
+}
+
+main .event-block-top {
+    font-size: 12px;
+    opacity: 1;
+    font-weight: normal;
+    color: white;
+}
+
+
+section {
+    padding: 50px 0 50px 0;
+    color: #1E213D;
+    line-height: 1.5;
+}
+
+section .content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
