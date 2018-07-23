@@ -207,6 +207,40 @@ section.sponsors img {
 
 
 
+.modal {
+    display: none;
+    width: 500px;
+    height: 200px;
+    background: white;
+    position: fixed;
+    border: 1px solid #1e213d;
+    z-index: 20;
+    color: #1e213d;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px; /* Negative half of width. */
+}
+
+.modal-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    cursor: pointer;
+}
+
+
 
 
 @media screen and (max-width: 550px) {
