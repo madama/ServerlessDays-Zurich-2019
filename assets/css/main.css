@@ -89,6 +89,7 @@ main {
     margin-top: 70px;
 }
 main .logo {
+    width: 100%;
     max-width: 700px;
     height: auto;
     margin: 0 auto;
@@ -162,15 +163,15 @@ main .one {
 }
 
 .mascot {
+    width: 100%;
     max-width: 500px;
     height: auto;
-    margin: 0 auto;
 }
 
 
 
 section {
-    padding: 50px 0 50px 0;
+    padding: 50px 15px 50px 15px;
     color: #1E213D;
     line-height: 1.5;
 }
@@ -180,3 +181,24 @@ section {
     margin: 0 auto;
 }
 
+
+section.darkbg {
+    background: #1e213d;
+    color: white;
+}
+section.darkbg h3 {
+    color: white;
+}
+
+
+
+section.mascotsection {
+    text-align: center;
+}
+
+
+section.sponsors img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
