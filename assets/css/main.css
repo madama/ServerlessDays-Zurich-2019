@@ -264,8 +264,8 @@ button {
     }
     section.sponsors img {
         margin: 0 auto;
-        margin-right: 0;
         margin-bottom: 15px;
+        display: block;
     }
 
 
