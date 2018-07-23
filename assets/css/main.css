@@ -268,11 +268,16 @@ button {
         display: block;
     }
 
-
-
     .modal {
         width: 90%;
         margin-left: -45%; /* Negative half of width. */
+    }
+
+    header {
+        min-height: 150px;
+    }
+    main {
+        margin-top: 150px;
     }
 
 }
