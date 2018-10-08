@@ -1,0 +1,12 @@
+language: minimal
+
+install: true
+
+before_script: pip install --user awscli
+
+script: aws s3 sync . s3://serverless-days-zurich --exclude .travis.yml
+
+notifications:
+  email:
+    - d.madama@gmail.com
+    - stefano.cicatiello@xpeppers.com
