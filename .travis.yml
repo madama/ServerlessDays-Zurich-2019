@@ -4,7 +4,7 @@ install: true
 
 before_script: pip install --user awscli
 
-script: aws s3 sync . s3://serverless-days-zurich --exclude .travis.yml
+script: aws s3 sync . s3://serverless-days-zurich --exclude .git --exclude .travis.yml --exclude README.md
 
 notifications:
   email:
