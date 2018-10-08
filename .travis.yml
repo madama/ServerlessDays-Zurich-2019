@@ -4,7 +4,7 @@ install: true
 
 before_script: pip install --user awscli
 
-script: aws s3 sync . s3://serverless-days-zurich --delete --exclude ".git/*" --exclude .travis.yml --exclude README.md --acl public-read --cache-control max-age=1800
+script: aws s3 sync . s3://zurich.serverlessdays.io --delete --exclude ".git/*" --exclude .travis.yml --exclude README.md --acl public-read --cache-control max-age=1800
 
 after_script: echo Done
 
