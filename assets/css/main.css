@@ -107,17 +107,18 @@ main .event {
 }
 
 main .event-block {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     width: 20%;
     height: 80px;
     font-weight: 900;
     display: inline-block;
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 20px;
     background: white;
     position: relative;
     color: #45476F;
+    line-height: 20px;
 }
 main .event-block:before {
     content:'';
