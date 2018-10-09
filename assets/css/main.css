@@ -76,6 +76,12 @@ header a.current {
     color: #16CCBB;
 }
 
+section a {
+    color: #666;
+}
+section a:hover {
+    color: #16CCBB;
+}
 
 main {
     background-color: #1e213d;
@@ -308,6 +314,7 @@ button {
     margin-right: 10px;
     margin-top: 15px;
     text-align: center;
+    font-size: 13px;
 }
 .workshop .people img {
     width: 100px;
