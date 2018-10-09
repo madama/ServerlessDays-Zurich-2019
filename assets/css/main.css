@@ -155,9 +155,6 @@ main .event-block-top {
     font-weight: normal;
     font-style: italic;
 }
-main .event-block-center {
-}
-
 main .one {
     color: #08B9A7;
     /* font-weight: 100; */
@@ -293,6 +290,48 @@ button {
     background-color: #EFBE64;
 }
 
+.workshop {
+    width: 100%;
+    border: 1px solid #08B9A7;
+    border-radius: 5px;
+    padding: 10px;
+}
+.workshop h3 {
+    color: #08B9A7;
+    font-size: 16px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+}
+.workshop .people {
+    width: 100px;
+    float: right; 
+    margin-right: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.workshop .people img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.workshop .people img.imgsocial {
+    width: 24px;
+    height: 24px;
+}
+.workshop__left {
+    width: 50%;
+    float: left;
+}
+span.workshop__left__title {
+    width: 60px;
+    color: #666;
+    display: inline-block;
+}
+.workshop__right {
+    width: 48%;
+    float: left;
+}
 
 
 @media screen and (max-width: 550px) {
@@ -333,6 +372,11 @@ button {
     }
     .agenda__right {
         width: 69%;
+    }
+
+    .workshop__left, .workshop__right {
+        width: 100%;
+        float: none;
     }
 
 }
