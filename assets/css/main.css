@@ -201,6 +201,8 @@ section.mascotsection {
 
 
 section.sponsors img {
+    width: auto;
+    height: 35px;
     margin: 30px 30px 0 0;
 }
 
@@ -247,6 +249,50 @@ button {
 }
 
 
+.clear {
+    clear: both;
+}
+
+.agenda {
+    margin-top: 15px;
+}
+.agenda__left {
+    float: left;
+    color: #666;
+    width: 10%;
+    border-right: 1px dashed #ccc;
+    text-align: right;
+}
+.agenda__right {
+    float: left;
+    width: 79%;
+    margin-left: 20px;
+}
+.agenda__hour {
+    padding: 5px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+.agenda__item {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.agenda__item--color1 {
+    background-color: #81C456;
+}
+.agenda__item--color2 {
+    background-color: #3A4072;
+    color: white;
+}
+.agenda__item--color3 {
+    background-color: #08B9A7;
+}
+.agenda__item--color4 {
+    background-color: #EFBE64;
+}
+
 
 
 @media screen and (max-width: 550px) {
@@ -279,6 +325,14 @@ button {
     }
     main {
         margin-top: 150px;
+    }
+
+
+    .agenda__left {
+        width: 20%;
+    }
+    .agenda__right {
+        width: 69%;
     }
 
 }
