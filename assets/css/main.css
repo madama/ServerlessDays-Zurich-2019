@@ -83,6 +83,10 @@ section a:hover {
     color: #16CCBB;
 }
 
+.darkbg a {
+    color: white;
+}
+
 hr {
     border: 1px dashed #16CCBB;
 }
@@ -375,6 +379,17 @@ span.workshop__left__title {
     color: white;
 }
 
+.contacts__left {
+    width: 33%;
+    float: left;
+}
+.contacts__center {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 550px) {
     h2 {
@@ -419,6 +434,18 @@ span.workshop__left__title {
     .workshop__left, .workshop__right {
         width: 100%;
         float: none;
+    }
+
+    .ticketbox {
+        width: 100%;
+        float: none;
+    }
+
+    .contacts__left, .contacts__center {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
     }
 
 }
