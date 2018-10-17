@@ -87,8 +87,25 @@ section a:hover {
     color: white;
 }
 
+a.bgblue {
+    background: #16CCBB;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+a.bgblue:hover {
+    opacity: 0.8;
+    color: white;
+}
+
 hr {
     border: 1px dashed #16CCBB;
+}
+
+.center {
+    text-align: center;
 }
 
 main {
@@ -366,17 +383,6 @@ span.workshop__left__title {
 .ticketbox__price {
     font-size: 20px;
     margin-bottom: 30px;
-}
-.ticketbox a {
-    background: #16CCBB;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
-}
-.ticketbox a:hover {
-    opacity: 0.8;
-    color: white;
 }
 
 .contacts__left {
