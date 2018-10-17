@@ -196,6 +196,7 @@ main .one {
     width: 100%;
     max-width: 500px;
     height: auto;
+    float: right;
 }
 
 
@@ -236,6 +237,7 @@ section.sponsors img {
 
 section.mascotfooter {
     text-align: center;
+    padding-top: 60px;
 }
 section.mascotfooter img {
     height: 130px;
@@ -396,6 +398,22 @@ span.workshop__left__title {
 }
 
 
+.dates {
+    text-align: left;
+    border: 2px solid #08B9A7;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+.dates .dates__date {
+    font-style: italic;
+    color: #08B9A7;
+}
+.dates .dates__title {
+    color: #3A4072;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 550px) {
     h2 {
@@ -454,4 +472,15 @@ span.workshop__left__title {
         text-align: center;
     }
 
+    
+
+}
+
+@media screen and (max-width: 864px) {
+    .dates {
+        width: 100%;
+    }
+    .mascot {
+        float: none;
+    }
 }
