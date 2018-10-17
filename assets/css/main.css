@@ -346,6 +346,36 @@ span.workshop__left__title {
 }
 
 
+
+.ticketbox {
+    border: 2px solid #16CCBB;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.ticketbox h4 {
+    margin: 0;
+    font-size: 24px;
+}
+.ticketbox__price {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.ticketbox a {
+    background: #16CCBB;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ticketbox a:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+
 @media screen and (max-width: 550px) {
     h2 {
         font-size: 30px;
