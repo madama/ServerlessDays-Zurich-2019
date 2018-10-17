@@ -4,7 +4,7 @@
 
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: white;
 }
 
@@ -21,7 +21,7 @@ h2 {
 h3 {
     color: #45476F;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 700;
     /* text-transform: uppercase; */
 }
 
@@ -81,6 +81,10 @@ section a {
 }
 section a:hover {
     color: #16CCBB;
+}
+
+hr {
+    border: 1px dashed #16CCBB;
 }
 
 main {
@@ -215,6 +219,7 @@ section.mascotfooter {
 section.mascotfooter img {
     height: 130px;
     width: auto;
+    margin: 0 20px 0 20px;
 }
 
 
