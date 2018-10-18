@@ -370,13 +370,20 @@ span.workshop__left__title {
 
 
 
+.ticketboxwrapper {
+    width: 100%;
+    max-width: 640px;
+    min-height: 150px;
+    margin: 0 auto;
+}
 .ticketbox {
     border: 2px solid #16CCBB;
     border-radius: 5px;
     width: 300px;
     padding: 10px;
     text-align: center;
-    margin: 0 auto;
+    float: left;
+    margin: 0 10px 10px 10px;
 }
 .ticketbox h4 {
     margin: 0;
@@ -472,8 +479,6 @@ span.workshop__left__title {
         text-align: center;
     }
 
-    
-
 }
 
 @media screen and (max-width: 864px) {
@@ -481,6 +486,9 @@ span.workshop__left__title {
         width: 100%;
     }
     .mascot {
+        float: none;
+    }
+    .ticketbox {
         float: none;
     }
 }
