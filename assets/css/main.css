@@ -415,11 +415,18 @@ span.workshop__left__title {
 .dates .dates__date {
     font-style: italic;
     color: #08B9A7;
+    padding-left: 24px;
 }
 .dates .dates__title {
     color: #3A4072;
     font-weight: 700;
     margin-bottom: 10px;
+    padding-left: 24px;
+}
+.dates img {
+    width: 20px;
+    height: auto;
+    float: left;
 }
 
 @media screen and (max-width: 550px) {
