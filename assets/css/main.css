@@ -273,21 +273,6 @@ section.mascotfooter img {
     font-size: 20px;
 }
 
-.modal__photo {
-    float: right;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-}
-.modal__photo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-.modal__about {
-    width: 600px;
-}
-
 
 button {
     border: 0;
@@ -466,6 +451,31 @@ span.workshop__left__title {
     float: left;
 }
 
+
+.detail__photo {
+    float: right;
+    width: 20%;
+    min-width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+.detail__photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.detail__about {
+    width: 80%;
+}
+.detailtop h3 {
+    color: white;
+}
+
+.detail h3 {
+    margin-top: 50px;
+}
+
+
 @media screen and (max-width: 550px) {
     h2 {
         font-size: 30px;
@@ -524,11 +534,14 @@ span.workshop__left__title {
         margin-left: -45%; /* Negative half of width. */
         top: 200px;
     }
-    .modal__about {
+
+    .detail__photo {
+        float: none;
         width: 100%;
+        text-align: center;
     }
-    .modal__photo {
-        display: none;
+    .detail__about {
+        width: 100%;
     }
 
 }
