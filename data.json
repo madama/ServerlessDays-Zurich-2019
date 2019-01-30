@@ -1,0 +1,9 @@
+{
+    "01": {
+        "name": "Marcin Zasepa",
+        "photo": "marcin-zasepa.jpg",
+        "title": "Running Web Platform with no servers: Serverless in production",
+        "description": "Serverless is a new technology, which promises faster business value delivery, reduced costs and simplified operations. As with every new technology, there is a promise of an added value on one side and the risk on another side. Being an early adopter can give your company advantage over your competitors, but does the serverless really full-fills its promise? What challenges will you encounter on your way to the first production-ready serverless microservices? I will try to provide you with an answer to this questions based on lessons we learned when implementing our first 100% serverless microservices, including deployment, code organisation, monitoring, logging, security and many other aspects which have to be approached in a different way in the new brave world of serverless.",
+        "about": "Passionate about software development with focus on bringing the maximum value to the business with least effort. After many years as a freelance software developer working on different projects varying in size and domain, making his experience in small startup (which failed), big enterprises as BMW being at leadership positions there and running his own software-engineering company, he finally found his home at Homegate.ch as Technical Lead and accepted the challenged, together with the great team at Homegate.ch to reengineer the platform from monolith heritage system operated on ‘on-premise’ to serverless micro-services running on AWS, making it the clear number one real estate platform in Switzerland.  Family guy,  proud father of three, fan of triathlon and boxing. Loving mountains and pure nature, addicted to bicycling, Tech-Blogs and software-engineering staff."
+    }
+}

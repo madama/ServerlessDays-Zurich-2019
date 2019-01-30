@@ -248,29 +248,46 @@ section.mascotfooter img {
 
 .modal {
     display: none;
-    width: 700px;
-    height: 300px;
+    max-width: 900px;
+    height: 600px;
+    max-height: 100%;
     background: white;
     position: fixed;
     border: 5px solid #1e213d;
     border-radius: 5px;
     z-index: 50;
     color: #1e213d;
-    text-align: center;
     padding: 50px;
-    font-size: 20px;
+    font-size: 15px;
+    overflow: auto;
 
-    top: 50%;
+    top: 120px;
     left: 50%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -350px; /* Negative half of width. */
+    margin-left: -450px; /* Negative half of width. */
 }
 
 .modal-close {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    right: 25px;
+    font-size: 20px;
 }
+
+.modal__photo {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+.modal__photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.modal__about {
+    width: 600px;
+}
+
 
 button {
     border: 0;
@@ -469,11 +486,6 @@ span.workshop__left__title {
         display: block;
     }
 
-    .modal {
-        width: 90%;
-        margin-left: -45%; /* Negative half of width. */
-    }
-
     header {
         min-height: 150px;
     }
@@ -506,9 +518,22 @@ span.workshop__left__title {
         text-align: center;
     }
 
+
+    .modal {
+        width: 90%;
+        margin-left: -45%; /* Negative half of width. */
+        top: 200px;
+    }
+    .modal__about {
+        width: 100%;
+    }
+    .modal__photo {
+        display: none;
+    }
+
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 864px) and (min-width: 551px) {
     .dates {
         width: 100%;
     }
@@ -517,5 +542,9 @@ span.workshop__left__title {
     }
     .ticketbox {
         float: none;
+    }
+    .modal {
+        width: 770px;
+        margin-left: -385px;
     }
 }
