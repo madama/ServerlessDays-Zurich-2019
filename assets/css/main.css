@@ -415,6 +415,10 @@ span.workshop__left__title {
     font-size: 20px;
     margin-bottom: 30px;
 }
+.ticketbox__soldout {
+    color: #08B9A7;
+    font-style: italic;
+}
 
 .contacts__left {
     width: 33%;
