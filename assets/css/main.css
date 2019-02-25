@@ -228,11 +228,18 @@ section.mascotsection {
     text-align: center;
 }
 
-
+section.sponsors p {
+    text-align: center;
+}
 section.sponsors img {
     width: auto;
-    height: 35px;
     margin: 30px 30px 0 0;
+}
+section.sponsors img.sponsors__image--long {
+    height: 35px;
+}
+section.sponsors img.sponsors__image--square {
+    height: 80px;
 }
 
 section.mascotfooter {
