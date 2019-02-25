@@ -11,8 +11,8 @@ window.onload = function() {
             var data = response[id];
             document.getElementById("j_detail_name").textContent = data.name;
             document.getElementById("j_detail_title").textContent = 'The talk: ' + data.title;
-            document.getElementById("j_detail_description").textContent = data.description;
-            document.getElementById("j_detail_about").textContent = data.about;
+            document.getElementById("j_detail_description").innerHTML = data.description;
+            document.getElementById("j_detail_about").innerHTML = data.about;
 
             document.title = document.title + " - Speakers: " + data.name;
 

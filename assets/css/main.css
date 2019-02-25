@@ -386,6 +386,7 @@ span.workshop__left__title {
     border-radius: 5px; */
     padding: 10px;
     text-align: center;
+    float: left;
 }
 .speakers__item img {
     width: 150px;
@@ -395,6 +396,9 @@ span.workshop__left__title {
 }
 .speakers__item img:hover {
     opacity: 0.8;
+}
+.speakers__item a {
+    text-decoration: none;
 }
 
 
