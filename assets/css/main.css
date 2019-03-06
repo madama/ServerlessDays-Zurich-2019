@@ -297,24 +297,20 @@ button {
 .agenda {
     margin-top: 15px;
 }
-.agenda__left {
-    float: left;
-    color: #666;
-    width: 10%;
-    border-right: 1px dashed #ccc;
-    text-align: right;
-}
-.agenda__right {
-    float: left;
-    width: 79%;
-    margin-left: 20px;
-}
 .agenda__hour {
+    float: left;
+    width: 10%;
     padding: 5px;
     padding-right: 15px;
     margin-top: 5px;
+    color: #666;
+}
+.agenda__container {
+    clear: both;
 }
 .agenda__item {
+    float: left;
+    width: 79%;
     border-radius: 5px;
     padding: 5px;
     margin-top: 5px;
@@ -529,10 +525,10 @@ span.workshop__left__title {
     }
 
 
-    .agenda__left {
+    .agenda__hour {
         width: 20%;
     }
-    .agenda__right {
+    .agenda__item {
         width: 69%;
     }
 
