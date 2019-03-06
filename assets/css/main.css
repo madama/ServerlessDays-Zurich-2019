@@ -319,9 +319,19 @@ button {
     padding: 5px;
     margin-top: 5px;
 }
+.agenda__item a, .agenda__item a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.agenda__item a:hover {
+    opacity: 0.7;
+}
 
 .agenda__item--color1 {
     background-color: #81C456;
+}
+.agenda__item--color2 {
+    background-color: #3A4072;
 }
 .agenda__item--color2 {
     background-color: #3A4072;
