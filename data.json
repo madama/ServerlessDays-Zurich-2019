@@ -33,6 +33,13 @@
         "title": "Building smarter solutions with machine learning, from magic to reality",
         "description": "<i>“Any sufficiently advanced technology is indistinguishable from magic.”</i> — Arthur C Clarke<br/>Well, machine learning can look like magic, but you don't need to be a data scientist or an ML researcher to develop with ML.<br/>So, what about making your solution smarter without any knowledge in AI? With pre-trained models and a few lines of code, machine learning APIs can analyze your data. Moreover, AutoML techniques can now help in getting even more specific insights tailored to your needs.",
         "about": "Laurent is a developer passionate about software, hardware, science and anything shaping the future. He works for Google where he ecstatically explores cloud technologies. In a previous life, he pioneered the ebook industry, co-created the 1st European ebook reader, and co-founded Bookeen. He now enjoys sharing his passion in international conferences. You can find him on twitter at @PicardParis."
+    },
+    "frank-munz": {
+        "name": "Frank Munz",
+        "photo": "frank-munz.jpg",
+        "title": "2019 Update: Serverless Beyond Lambda",
+        "description": "This presentation is a no-nonsense review of all new features and services around Lambda. Serverless is more than just AWS Lambda! I will review the full picture of services and new features: Starting with the open-sourced Firecracker mini-VM that spins up in 125ms, to serverless databases that can scale down to zero, Dynamo DB that does not need provisioned throughput anymore, to Lambda layers and custom runtimes that brings languages you always wanted like COBOL and PHP.<br/>Here is the deal: One feature/service = 5 minutes. Fast paced! Honest tech bits. Explained well. No vendor pitch. Promised!",
+        "about": "In 2017, Frank travelled to a couple of not so safe countries teaching cloud workshops. He always dreamed to present at one conference at every single continent (maybe except Antarctica). Once he’d successfully completed this mission, he hired at AWS. Frank now works as a senior technical evangelist for AWS. He was nominated as Developer Champion 2017, holds several AWS certifications, a PADI advanced scuba diver certification, and a PhD in Computer Science with brain research.<br/>Before joining AWS, Frank was running his global boutique consultancy for over a decade. He is a published author of 3 cloud and middleware books. Real books, not screenshot books. He enjoys writing about himself in the third person."
     }
 
 }
