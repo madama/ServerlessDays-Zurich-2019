@@ -236,10 +236,24 @@ section.sponsors img {
     margin: 30px 30px 0 0;
 }
 section.sponsors img.sponsors__image--long {
-    height: 35px;
+    height: 60px;
 }
 section.sponsors img.sponsors__image--square {
+    height: 120px;
+}
+section.sponsors img.sponsors__image--long--supporter {
+    height: 35px;
+}
+section.sponsors img.sponsors__image--square--supporter {
     height: 80px;
+}
+section.sponsors h4 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 22px;
+}
+section.sponsors h3.sponsors__titlesupporters {
+    margin-top: 100px;
 }
 
 section.mascotfooter {
