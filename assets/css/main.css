@@ -411,6 +411,7 @@ span.workshop__left__title {
     padding: 10px;
     text-align: center;
     float: left;
+    height: 250px;
 }
 .speakers__item img {
     width: 150px;
