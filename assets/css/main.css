@@ -515,6 +515,12 @@ span.workshop__left__title {
     margin-top: 50px;
 }
 
+.mapouter iframe {
+    max-width: 500px;
+    width: 100%;
+    height: 320px;
+}
+
 
 @media screen and (max-width: 550px) {
     h2 {
@@ -583,7 +589,9 @@ span.workshop__left__title {
     .detail__about {
         width: 100%;
     }
-
+    .dates {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 864px) and (min-width: 551px) {
