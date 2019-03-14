@@ -247,12 +247,16 @@ section.sponsors img.sponsors__image--long--supporter {
 section.sponsors img.sponsors__image--square--supporter {
     height: 80px;
 }
+section.sponsors .sponsors__image--long--headline {
+    max-width: 550px;
+    width: 95%;
+}
 section.sponsors h4 {
     text-align: center;
     margin-top: 80px;
     font-size: 22px;
 }
-section.sponsors h3.sponsors__titlesupporters {
+section.sponsors h3.sponsors__title {
     margin-top: 100px;
 }
 
