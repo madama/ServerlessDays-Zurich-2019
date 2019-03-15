@@ -250,6 +250,7 @@ section.sponsors img.sponsors__image--square--supporter {
 section.sponsors .sponsors__image--long--headline {
     max-width: 550px;
     width: 95%;
+    margin: 90px 0 0 0;
 }
 section.sponsors h4 {
     text-align: center;
