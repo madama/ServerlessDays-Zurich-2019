@@ -54,6 +54,13 @@
         "title": "Solving complex business use cases in a serverless way",
         "description": "Serverless computing gains popularity as it simplifies developers’ lives in many aspects: languages, deployment, infrastructure. But simplicity doesn’t mean inability to build complex workflows. In this talk, we will share our experience using Apache OpenWhisk to solve advanced business use cases.",
         "about": "Duy is a software engineer at Adobe R&D Switzerland in Basel. He is a member of Developer Ecosystem and Adobe I/O engineering team.<br/>His technical contribution at Adobe has focused on cloud platform and emerging technologies, including Adobe I/O Runtime serverless platform, Cloud Native Apps and SDKs, and research on applying serverless technologies in ML/AI.<br/>He is an active contributor in the Apache OpenWhisk (Incubator) project.<br/>When he is not working, you might find Duy with his backpack somewhere in the nature of Nepali mountains, or with his favorite book about Roman history.<br/><br/>Moritz is a young Software Engineer passionate about cloud technologies. After graduating from a master’s degree in CS at EPFL, he joined Adobe in Basel for new adventures. He now works for Adobe I/O a team providing solutions empowering developers looking to integrate, extend, or create apps based on Adobe’s technologies. His current role is to implement a SDK to help developers create cloud native apps backed by Adobe’s serverless infrastructure, which is built on top of Apache OpenWhisk."
+    },
+    "danilo-poccia": {
+        "name": "Danilo Poccia",
+        "photo": "danilo-poccia.jpg",
+        "title": "Taking Serverless to the Next Level",
+        "description": "What are the top best practices to build and run applications without thinking about servers? Model your serverless components as templates and deploy your infrastructure as config to leverage best practices such as code reviews. Step-through and debug your code with a local execution environment. Coordinate and manage the state of each distributed component. Continuously deliver your code in production using application lifecycle management tools. Enable gradual, safe deployments. To support our findings, we’ll review customer case studies to see what they did, why, and which benefits they got most.",
+        "about": "Danilo works with startups and companies of any size to support their innovation. In his role as Evangelist at Amazon Web Services, he leverages his experience to help people bring their ideas to life, focusing on serverless architectures and event-driven programming, and on the technical and business impact of machine learning and edge computing. He is the author of AWS Lambda in Action from Manning."
     }
 
 }
